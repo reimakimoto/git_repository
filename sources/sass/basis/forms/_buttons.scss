@@ -1,0 +1,91 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+///*槇元追加*///
+
+/*「MORE」ボタン*/
+.b-f-button__more_word{
+    display: block;
+    margin: 7px auto;
+    width: 200px;
+    padding-top:14.5px;
+    padding-bottom:14.5px;
+    border-radius: 5px;
+
+    border-style: none;
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    
+    /*リンクの色の変化なし*/
+    &:link { color:#000000; text-decoration:none }
+    &:visited { color:#000000; text-decoration:none }
+    &:hover { color:#000000; text-decoration:none }
+    &:active { color:#000000; text-decoration:none }
+
+}
+
+.b-f-button__more_grey{
+    background: #e6e6e6
+        url(../images/icon_button_arrow.svg) no-repeat;
+    background-position: top 20px right 8px;
+    background-size: 18px 8px;
+    
+}
+
+.b-f-button__more_white{
+    background: #fff
+        url(../images/icon_button_arrow.svg) no-repeat;
+    background-position: top 20px right 8px;
+    background-size: 18px 8px;
+}
+
+
+/*「お問い合わせ」ボタン*/
+.b-f-button__contact{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top:19.5px;
+    padding-bottom:19.5px;
+    border-radius: 5px;
+
+    border-style: none;
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    
+    background-color: #808080;
+    
+    &:link { color:#ffffff; text-decoration:none }
+    &:visited { color:#ffffff; text-decoration:none }
+    &:hover { color:#ffffff; text-decoration:none }
+    &:active { color:#ffffff; text-decoration:none }
+}
+
+
+

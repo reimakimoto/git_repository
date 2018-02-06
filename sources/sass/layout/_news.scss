@@ -1,0 +1,105 @@
+.l-n-container{
+    .l-n-news_box{
+        width: 903px;
+        margin: 0 auto 80px;
+        padding: 0px 49px 0px;
+
+        .l-n-news{
+            margin-bottom: 79px;
+            border-top: 1px solid #00b8f1;
+
+            .l-n-news_date{
+                margin-top: 18px;
+
+                font-size: 13px;
+                line-height: 1;
+                letter-spacing: 0.025em;
+
+                color: #787878;
+            }
+
+            .l-n-news_title{
+                margin-top: 32px;
+
+                font-size: 23px;
+                font-weight: 500;
+                line-height: 1;
+                letter-spacing: 0.025em;
+
+                color: #ee5ba0;
+            }
+
+            .l-n-news_detail{
+                margin-top: 36px;
+
+                font-size: 15px;
+                line-height: 1.93;
+
+                .l-n-item{
+                    img{
+                        width: 12.7px;
+                        height: 12.7px;
+                    }
+
+                    color: #00b8f1;
+                    font-weight: 600;
+                }
+            }
+
+            .l-n-buttons{
+                margin-top: 42px;
+                .l-n-ap_form_button{
+                    margin-right: 6px;
+                }
+            }
+        }
+        
+        .l-n-news_last{
+            padding-bottom: 79px;
+            border-bottom: 1px solid #00b8f1;
+        }
+    }
+    
+    .b-f-button__more_word{
+        margin-bottom: 159px;
+    }
+}
+
+.l-n-ap_form_button{
+    display: inline-block;
+    
+    width: 262px;
+    border-radius: 5px;
+    padding: 19px 0px 19px 94px;
+    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6875;
+    letter-spacing: -0.015em;
+
+    color: #fff;
+    
+    background: #ee5ba0 url(../images/logo_hands.svg) no-repeat;
+    background-size: 62.731px 49.468px;
+    background-position: left 20px top 20px;
+    
+    }
+
+.l-n-pdf_download_button{
+    display: inline-block;
+    
+    width: 262px;
+    border-radius: 5px;
+    padding: 19px 0px;
+    
+    text-align-last: center;
+    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6875;
+    letter-spacing: -0.015em;
+    
+    color: #fff;
+    background-color: #00b8f1;
+    
+    }

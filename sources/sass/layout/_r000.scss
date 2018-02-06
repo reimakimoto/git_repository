@@ -1,0 +1,229 @@
+.l-r000-main_report{
+    width: 1100px;
+    padding: 11px 147px 47px;
+    margin: 0 auto;
+
+    border: 1px solid #00b8f1;
+    
+    .l-r-main_top_image{
+        margin-top: 28px;
+    }
+    
+    .l-r-main_top_text{
+        font-size: 15px;
+        line-height: 1.93;
+        
+        margin: 50px 0px 50px;
+    }
+    
+    .l-r-subs{
+        margin-bottom: 95px;
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        .l-r-sub{
+            width: 388px;
+            margin-bottom: 32px;
+
+            img{
+                width: 388px;
+                height: 268.5px;
+            }
+
+            p{
+                font-size: 12px;
+                line-height: 1.75;
+            }
+        }
+    }
+    
+    .l-r-guest_introduction{
+        margin-bottom: 95px;
+        padding-top: 12px;
+        border-top: 1px solid #00b8f1;
+        .l-r-guests{
+            width: 826.5px;
+            margin: 0 -9.5px;
+            padding-top: 25px;
+            
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            .l-r-guest{
+                width: 256.5px;
+                margin: 0 9.5px;
+                text-align: center;
+                
+                img{
+                    width: 256.5px;
+                    height: 292px;
+                }
+                
+                .l-r-guest__name{
+                    height: 24px;
+                    margin-top: 20px;
+                    
+                    font-size: 20px;
+                    line-height: 1.25;
+                }
+                
+                .l-r-guest__name_phonetic{
+                    font-size: 12px;
+                    line-height: 2;
+                }
+                
+                .l-r-guest__company{
+                    margin-top: 4px;
+                    
+                    font-size: 15px;
+                    line-height: 1.66;
+                }
+                
+                .l-r-read_chie_button{
+                    display: inline-block;
+    
+                    width: 200px;
+                    margin-top: 24px;
+                    padding-top:16px;
+                    padding-bottom:16px;
+                    border-radius: 7px;
+
+                    background-color:#ee5ba0;
+
+                    font-size: 16px;
+                    line-height: 1.56;
+                    letter-spacing: 0.125em;
+                    font-weight: bold;
+                    color: #fff;
+                    text-align: center;
+
+                    /*リンクの色の変化なし*/
+                    &:link { color:#fff; text-decoration:none }
+                    &:visited { color:#fff; text-decoration:none }
+                    &:hover { color:#fff; text-decoration:none }
+                    &:active { color:#fff; text-decoration:none }
+                }
+            }
+        }
+        
+    }
+    
+    .l-r-work_contents{
+        border-top: 1px solid #00b8f1;
+        .l-r-teams{
+            margin-top: 40px;
+            .l-r-team{
+                margin-bottom: 92px;
+                
+                display: flex;
+                justify-content: flex-start;
+                
+                position: relative;
+                
+                .l-r-team__image_box{
+                    .l-r-team__name{
+                        width: 315px;
+                        padding: 9.5px 0px 9.5px;
+                        background-color: #ee5ba0;
+                        
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #fff;
+                        
+                        text-align: center;
+                    }
+                    .l-r-team__image{
+                        width: 315px;
+                        height: 238px;
+                        
+                    }
+                }
+                .l-r-team__contents{
+                    margin-left: 34px;
+                    .l-r-team__contents__topic_1{
+                        margin-bottom: 8px;
+                        
+                        font-size: 20px;
+                        line-height: 1.45;
+                        letter-spacing: 0.025em;
+                        
+                        color: #00b8f1;
+                    }
+                    .l-r-team__contents__topic_2{
+                        margin-top: 15px;
+                        margin-bottom: 8px;
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        img{
+                            width: 35.659px;
+                            height: 28.12px;
+                        }
+                        
+                        h3{
+                            font-size: 20px;
+                        line-height: 1.45px;
+                        letter-spacing: 0.025em;
+                        
+                        color: #ee5ba0;
+                        }
+                        
+                        
+                    }
+                    
+                    p{
+                        font-size: 15px;
+                        line-height: 1.73;
+                    }
+                }
+                
+                .c-i-icon_dotted_line_svg{
+                    position: absolute;
+                    bottom: -49px;
+                    left: 50%;
+                    margin-left: -43px;
+                }
+            } 
+        } 
+    }    
+}
+
+.l-r-other_reports{
+    width: 1100px;
+    margin: 63px auto 156px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    .l-r-other_report{
+        width: 523px;
+        
+        border: 1px solid #00b8f1;
+        
+        text-align: center;
+    }
+    
+    .l-r-other_report__title{
+        margin-top: 45px;
+        margin-bottom: 24px;
+        
+        font-size: 18px;
+        line-height: 1.75;
+        letter-spacing: 0.02em;
+    }
+    
+    img{
+        width: 431px;
+        height: auto;
+    }
+    
+    .read_report_button{
+        margin-top: 32px;
+        margin-bottom: 47px;
+    }
+}
